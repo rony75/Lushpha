@@ -1,0 +1,169 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/*============================================*/
+            /*Page layout propati*/
+
+#Main_waper{
+    border: 1px solid black;
+    height: 7932px;
+    max-width: 100%;
+    /*background-color: blueviolet;*/
+}
+#Header_container{
+    max-width: 100%;
+    height: 1030px;
+    /*background-color: gold;*/
+}
+.Logo{
+    width: 150px;
+    height: 150px;
+   background-color: indianred;
+}
+#Header_nav{
+    max-width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+#Feature1{
+    max-width: 100%;
+    height: 575px;
+   background-color: violet;
+   border:1px solid black;
+
+}
+#Feature2{
+    height: 575px;
+    max-width: 100%;
+}
+#Service{
+    max-width: 100%;
+    height: 1075px;
+    background-color: teal;
+}
+#Testimonials{
+    max-width: 100%;
+    height: 715px;
+    background-color: red;
+}
+#Team{
+    max-width: 100%;
+    height: 1070px;
+    background-color:sienna;
+}
+#Appointment_Table{
+    max-width: 100%;
+    height: 650px;
+    background-color: rgb(92, 138, 2);
+}
+#Blog{
+    max-width: 100%;
+    height: 1000px;
+    background-color: brown;
+}
+#Contact{
+    max-width: 100%;
+    height: 815px;
+    background-color: darkblue;
+}
+#Footer{
+    max-width: 100%;
+    height: 450px;
+    background-color: khaki;
+}
+
+/*===================================================*/
+                    /*head styel*/
+#Header_nav .Logo{
+    float: left;
+    margin-top: 0px;
+    margin-left: 337px;
+}
+#Header_nav .manuber{
+    float: left;
+    margin-top: 90px;
+    margin-left: 187px;
+}
+.manuber ul li{
+     text-align: center;
+     float: left;
+     margin-left: 48px;
+     display: inline;
+}
+.manuber ul{
+    list-style: none;
+}
+.manuber ul li a{
+    text-decoration: none;
+}
+/*===================================================*/
+                    /*pata logo and p tag style*/
+
+#container{
+    height: 885px;
+    max-width: 100%;
+}
+#container .Pata_pic1{
+    height: 885px;
+    width: 25%;
+    float: left;
+   background-color: burlywood;
+}
+#container .text{
+    height: 885px;
+    width: 75%;
+    float:right;
+    padding-top: 140px;
+    box-sizing: border-box;
+   background-color: coral;
+}
+#container::after{
+    contain: " "; display: block; clear: both;
+    padding: 20px;
+}
+
+.button{
+    background-color:sienna;
+    border: none;
+    width: 170px;
+    height: 50px;
+}
+.button a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+#full_pic_1{
+    padding-top: 343px;
+    box-sizing: border-box;
+}
+
+#Feature1 .Icon_png2{
+    height: 70px;
+    width: 85px;
+}
+.text2{
+    padding-top: 150px;
+    padding-left: 220px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#Feature2{
+    /*background-color: red;*/
+    
+}
+.card_layour {
+    width: 100%;
+   /* border-collapse: collapse; */ 
+   /*border:rgb(3, 3, 3);*/
+}
+.card_layour tr{
+    height: 100px;
+    background-color:gray;
+    cursor: pointer;
+}
+.card_layour tr td:hover{
+    background-color: rgb(100, 47, 47);
+}
+
